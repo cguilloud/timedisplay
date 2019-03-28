@@ -13,9 +13,7 @@ def setup_package():
         keywords=['time', 'duration', 'human', 'formating'],
         author="Cyril Guilloud (ESRF-BCU)",
         author_email="prenom.name@truc.fr",
-        packages=['timedisplay'],
-        package_dir={'timedisplay': 'timedisplay'},
-        package_data={'timedisplay': ['test_timedisplay.py']},
+        packages=setuptools.find_packages(),
         classifiers=[
         "Programming Language :: Python :: 3",
         "License :: GPL3",
