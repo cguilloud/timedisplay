@@ -3,7 +3,7 @@
 
 author: Cyril Guilloud ESRF BCU 2013-2019
 
-`timedisplay` is a python library to print time durations in a
+`timedisplay` is a python library to format time durations in a
 human-readable way.
 
 Units managed are :

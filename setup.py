@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="timedisplay",
     version="0.9.0",
-    description="Human-readable time durations printing library",
+    description="Human-readable time durations formating library",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://gitlab.esrf.fr/cyril.guilloud/timedisplay",
