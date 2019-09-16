@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 def setup_package():
     setuptools.setup(
         name="timedisplay",
-        version="0.9.0",
+        version="0.9.6",
         description="Human-readable time durations formating library",
         long_description=long_description,
         url="https://github.com/cguilloud/timedisplay",
